@@ -1,0 +1,28 @@
+{
+    "name": "simplexi/greetr",
+    "description": "Greetr - A simple Laravel package.",
+    "type": "project",
+    "license": "Finoux",
+    "authors": [
+        {
+            "name": "vicky telrandhe",
+            "email": "vickytelrandhe1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Simplexi\\Greetr\\": "src/"
+        }
+    },
+    "extra": {
+        "greetr": {
+            "providers": [
+                "simplexi\\greetr\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "laravelcollective/html": "^5.5"
+    }
+}
